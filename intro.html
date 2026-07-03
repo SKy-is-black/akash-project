@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Akash Kumar</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background-color: #c5c5d0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 3rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+      text-align: center;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+      margin-top: 40px;
+      border-bottom: 2px solid #555;
+      padding-bottom: 6px;
+    }
+    p {
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+    a {
+      color: #1a3fae;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Profile image */
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      margin-top: 10px;
+    }
+
+    /* Media sections */
+    audio, video {
+      margin-top: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+    video {
+      width: 100%;
+      max-width: 500px;
+    }
+    audio {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    section {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>its me akash kumar</h1>
+
+  <p>
+    Hello! My name is Akash Kumar. I am passionate about web development and design,
+    and I enjoy creating simple, elegant webpages. In my free time, I like learning
+    new technologies, exploring creative ideas, and sharing knowledge with others.
+    <br>
+    <a href="https://srmcem.ac.in/">Shri Ram Swaroop College</a>
+  </p>
+
+  <!-- Photo Section -->
+  <section>
+    <h2>How I Look</h2>
+    <img class="profile-pic" src="akash.jpg" alt="Akash Kumar's photo">
+    <p><em></em></p>
+  </section>
+
+  <!-- Audio Section -->
+  <section>
+    <h2>Listen to My Introduction</h2>
+    <audio controls>
+      <source src="intro.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p><em>(Replace "intro.mp3" with your own audio file)</em></p>
+  </section>
+
+  <!-- Video Section -->
+  <section>
+    <h2>Watch My Video Introduction</h2>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p><em>(Replace "video.mp4" with your own video file)</em></p>
+  </section>
+
+</body>
+</html>
